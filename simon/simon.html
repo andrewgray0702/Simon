@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <head>
+        <title></title>
+        <style>
+        #counter{
+            widows: 100px;
+            height: 5vh;
+        }
+        #container{
+            display: flex;
+            flex-direction: row;
+        }
+        .buttons {
+            border: 3px solid black;
+            width: 200px;
+            height: 200px;
+            opacity: .5;
+        }
+        .red {
+            background-color: red;
+        }
+        .green {
+            background-color: green;
+        }
+        .blue {
+            background-color: blue;
+        }
+        .yellow {
+            background-color: yellow;
+        }
+        .active{
+            opacity: 1;
+        }
+        </style>
+    </head>
+    <body>
+    <div id="counter">Game 1</div>
+    <div id="container">
+    <div class="buttons red"></div>
+    <div class="buttons green"></div>
+    <div class="buttons blue"></div>
+    <div class="buttons yellow"></div>
+    </div>
+    <div id="newGame"></div>    
+        <script src="simon.js"></script>
+    </body>
+</html>
